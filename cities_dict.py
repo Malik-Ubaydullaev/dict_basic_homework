@@ -6,4 +6,7 @@ def cities_dict(cities:list):
     Returns:
         dict: dictionary with keys ordered by city name
     """
-    return
+    cities_dict = {}
+    for kalit, qiymat in enumerate(cities):
+        cities_dict[kalit] = qiymat
+    return cities_dict
